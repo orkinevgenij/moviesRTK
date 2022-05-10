@@ -1,0 +1,14 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.icon {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

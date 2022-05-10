@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.content {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr 100px;
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}

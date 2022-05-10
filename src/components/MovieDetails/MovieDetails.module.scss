@@ -1,0 +1,45 @@
+.detailsList {
+
+}
+.title{
+  font-size: 50px;
+}
+.overview{
+  font-size: 20px;
+}
+.date {
+  font-size: 20px;
+  font-weight: bold;
+}
+.average{
+  font-size: 20px;
+  font-weight: bold;
+}
+.detailsCard {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.homepage{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.poster {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+.average {
+  border: 4px red solid;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

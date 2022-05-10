@@ -1,0 +1,21 @@
+.favoritesList {
+
+}
+
+
+
+.movies, .serials {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-items: start;
+  margin-bottom: 70px;
+  margin-top: 60px;
+  gap: 30px;
+}
+.title {
+  display: inline;
+  background-color: red;
+  padding: 10px 15px 10px 15px;
+  color: white;
+
+}
