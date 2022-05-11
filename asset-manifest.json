@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movierRTK/static/css/main.8b747a6a.css",
+    "main.js": "/movierRTK/static/js/main.fa4af9ed.js",
+    "index.html": "/movierRTK/index.html",
+    "main.8b747a6a.css.map": "/movierRTK/static/css/main.8b747a6a.css.map",
+    "main.fa4af9ed.js.map": "/movierRTK/static/js/main.fa4af9ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b747a6a.css",
+    "static/js/main.fa4af9ed.js"
+  ]
+}
