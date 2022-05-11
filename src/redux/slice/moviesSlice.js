@@ -10,7 +10,6 @@ export const fetchMovies = createAsyncThunk(
       if (!response.ok) {
         throw new Error('Server Error!')
       }
-      // const data = response.json()
       const data = await response.json()
       return data.results
     } catch (error) {

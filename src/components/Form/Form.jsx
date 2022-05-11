@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Form.module.scss'
-import { Link, Route, Routes, Outlet, NavLink } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 const Form = () => {
 

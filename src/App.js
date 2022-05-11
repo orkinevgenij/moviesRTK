@@ -12,7 +12,6 @@ import Registration from './components/Form/Registration/Registration'
 import SerialDetails from './components/SerialDetails/SerialDetails'
 
 function App () {
-
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>
@@ -24,7 +23,7 @@ function App () {
         <Route path="favorites" element={<FavoritesList/>}/>
         <Route path="form" element={<Form/>}>
           <Route index element={<Login/>}/>
-          <Route path='registration' element={<Registration/>}/>
+          <Route path="registration" element={<Registration/>}/>
         </Route>
         <Route path="*" element={<NotFoundPage/>}/>
         <Route/>

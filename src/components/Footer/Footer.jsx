@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.scss'
-import { BsFacebook, BsInstagram, BsTelegram } from 'react-icons/bs'
+import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 
 const Footer = (props) => {

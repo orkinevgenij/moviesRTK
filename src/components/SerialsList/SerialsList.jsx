@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { fetchSerials } from '../../redux/slice/serialsSlice'
 import SerialItem from '../SerialsCard/SerialItem'
 import styles from './SerialsList.module.scss'

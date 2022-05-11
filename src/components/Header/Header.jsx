@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom'
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 import styles from './Header.module.scss'
 import { FaRegUser } from 'react-icons/fa'
 import { useSelector } from 'react-redux'
